@@ -84,7 +84,7 @@ resource "aws_verifiedaccess_trust_provider" "trust_provider" {
 # Setup central Verified Access instance
 ################################################################################
 resource "aws_verifiedaccess_instance" "this" {
-  description = "Central AVA instance"
+  description = "AVA instance"
   tags = {
     Name = "AVA Instance"
   }
